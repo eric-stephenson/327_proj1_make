@@ -1,18 +1,12 @@
-/*
- * myfunc.cpp
- *
- *  Created on: Jan 22, 2020
- *      Author: ericstephens28
- */
+//#includes are ALWAYS at top of file
+#include <iostream>	//iostream is where std::cout and std::endl are defined
 
-#include "myfunc.h"
+std::string func();
 
-myfunc::myfunc() {
-	// TODO Auto-generated constructor stub
-
+std::string func()
+{
+	//say hello
+	return "hello";
 }
 
-myfunc::~myfunc() {
-	// TODO Auto-generated destructor stub
-}
 
